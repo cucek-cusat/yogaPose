@@ -260,7 +260,7 @@ function calculateError(anglesArr) {
       // display score to user (overall accuracy estimate)
       finalScore = (score / anglesArr.length) * 100;
       finalScore = Math.round(finalScore * 10) / 10;
-      if(finalScore>20)
+      if(finalScore>35)
       poseResult= currentPose
       if(finalScore > 20 && finalScore<50){
         finalScore=finalScore+15;
